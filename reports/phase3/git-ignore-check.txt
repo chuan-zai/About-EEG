@@ -1,0 +1,4 @@
+data/raw/A01T.mat
+data/processed/S01.npz
+data/plans/rq1-v2/S01/42/plans.json.gz
+results/rq1-v2/S01-seed42-A0/checkpoint.pt

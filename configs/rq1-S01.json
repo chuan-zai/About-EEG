@@ -1,0 +1,9 @@
+{
+  "purpose":"RQ1_fixed_budget_single_subject_first_replication",
+  "data_path":"data/processed/S01.npz",
+  "seed":42,"split_seed":42,"device":"auto","threads":1,
+  "time":250,"stride":250,"dim":128,"layers":2,
+  "lr":0.001,"weight_decay":0.01,"batch_size":8,"steps":1000,
+  "evaluation_seeds":[1101,2202,3303],"evaluation_batch_size":8,
+  "evaluation_trial_limit":null
+}

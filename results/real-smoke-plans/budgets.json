@@ -1,0 +1,82 @@
+{
+  "A0": {
+    "total_updates": 4,
+    "updates_22": 4,
+    "updates_8": 0,
+    "target_elements": 6144,
+    "input_slots": 22528,
+    "note": "Dense 22-slot model processes all slots; wall time is also logged. Extra/exposure controls have different total compute."
+  },
+  "A1": {
+    "total_updates": 4,
+    "updates_22": 3,
+    "updates_8": 1,
+    "target_elements": 5120,
+    "input_slots": 22528,
+    "note": "Dense 22-slot model processes all slots; wall time is also logged. Extra/exposure controls have different total compute."
+  },
+  "A1_exposure": {
+    "total_updates": 3,
+    "updates_22": 3,
+    "updates_8": 0,
+    "target_elements": 4608,
+    "input_slots": 16896,
+    "note": "Dense 22-slot model processes all slots; wall time is also logged. Extra/exposure controls have different total compute."
+  },
+  "A1_extra": {
+    "total_updates": 5,
+    "updates_22": 4,
+    "updates_8": 1,
+    "target_elements": 6656,
+    "input_slots": 28160,
+    "note": "Dense 22-slot model processes all slots; wall time is also logged. Extra/exposure controls have different total compute."
+  },
+  "A2": {
+    "total_updates": 4,
+    "updates_22": 2,
+    "updates_8": 2,
+    "target_elements": 4096,
+    "input_slots": 22528,
+    "note": "Dense 22-slot model processes all slots; wall time is also logged. Extra/exposure controls have different total compute."
+  },
+  "A2_exposure": {
+    "total_updates": 2,
+    "updates_22": 2,
+    "updates_8": 0,
+    "target_elements": 3072,
+    "input_slots": 11264,
+    "note": "Dense 22-slot model processes all slots; wall time is also logged. Extra/exposure controls have different total compute."
+  },
+  "A2_extra": {
+    "total_updates": 8,
+    "updates_22": 4,
+    "updates_8": 4,
+    "target_elements": 8192,
+    "input_slots": 45056,
+    "note": "Dense 22-slot model processes all slots; wall time is also logged. Extra/exposure controls have different total compute."
+  },
+  "A3": {
+    "total_updates": 4,
+    "updates_22": 1,
+    "updates_8": 3,
+    "target_elements": 3072,
+    "input_slots": 22528,
+    "note": "Dense 22-slot model processes all slots; wall time is also logged. Extra/exposure controls have different total compute."
+  },
+  "A3_exposure": {
+    "total_updates": 1,
+    "updates_22": 1,
+    "updates_8": 0,
+    "target_elements": 1536,
+    "input_slots": 5632,
+    "note": "Dense 22-slot model processes all slots; wall time is also logged. Extra/exposure controls have different total compute."
+  },
+  "A3_extra": {
+    "total_updates": 16,
+    "updates_22": 4,
+    "updates_8": 12,
+    "target_elements": 12288,
+    "input_slots": 90112,
+    "note": "Dense 22-slot model processes all slots; wall time is also logged. Extra/exposure controls have different total compute."
+  }
+}

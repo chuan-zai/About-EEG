@@ -1,0 +1,8 @@
+{
+  "initial_tests": "16 passed in 18.06s",
+  "s01_processed_unchanged": true,
+  "s01_phase2_plan_unchanged": true,
+  "protocol_audit": "random25 target-element pooled; outside14 independent with exactly8 visible, no_grad evaluation",
+  "git": "/workspace/.git empty; not a valid Git repository. No usable index/history to inspect; ignore rules verified in temporary Git repository.",
+  "data_download_policy": "existing raw files skipped; S01 raw/processed/provenance kept unchanged"
+}

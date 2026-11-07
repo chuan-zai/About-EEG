@@ -1,0 +1,17 @@
+{
+  "status":"predeclared_before_learning_runs",
+  "subject":"S01","train_session":"T","selection_session":"T_validation_only",
+  "seeds":[42,43,44],"split_seed":42,"steps":120,"batch_size":4,
+  "time":250,"stride":250,"lr":0.001,"weight_decay":0.01,
+  "v1":{"dim":128,"layers":2},"v2":{"dim":64,"layers":2,"patch_size":5},
+  "validation_trial_limit":16,"evaluation_seeds":[1101,2202,3303],
+  "gate":{
+    "min_baseline_relative_improvement":0.05,
+    "min_untrained_relative_improvement":0.02,
+    "min_v1_median_relative_improvement":0.01,
+    "min_seeds_passing":2,
+    "max_parameters":1000000,
+    "required_safety_tests":true,
+    "rule":"V2 must beat better of zero and train-only mean-waveform baseline by >=5% in >=2/3 seeds, improve vs its untrained score by >=2% in >=2/3 seeds, and median paired V1-relative improvement >=1%; all losses/gradients finite and safety tests pass. No threshold changes or extra retries based on outcomes."
+  }
+}

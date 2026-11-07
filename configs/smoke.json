@@ -1,0 +1,1 @@
+{"data":"synthetic","seed":42,"device":"cpu","time":64,"dim":128,"layers":2,"lr":0.001,"batch_size":4,"steps":4,"p22":0.5,"control":"mixed"}

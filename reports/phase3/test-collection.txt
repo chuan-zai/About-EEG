@@ -1,0 +1,24 @@
+tests/test_phase3.py::test_v2_safety_shapes_and_gradients[32-8]
+tests/test_phase3.py::test_v2_safety_shapes_and_gradients[32-22]
+tests/test_phase3.py::test_v2_safety_shapes_and_gradients[250-8]
+tests/test_phase3.py::test_v2_safety_shapes_and_gradients[250-22]
+tests/test_phase3.py::test_v1_unchanged_and_v2_temporal_information
+tests/test_phase3.py::test_regions_pool_correctly_not_average_rmse
+tests/test_phase3.py::test_coverage_and_baselines_train_only
+tests/test_phase3.py::test_statistics_subject_unit_and_multiplicity
+tests/test_phase3.py::test_all_subject_audits_units_splits_and_train_norm[1]
+tests/test_phase3.py::test_all_subject_audits_units_splits_and_train_norm[2]
+tests/test_phase3.py::test_all_subject_audits_units_splits_and_train_norm[3]
+tests/test_phase3.py::test_all_subject_audits_units_splits_and_train_norm[4]
+tests/test_phase3.py::test_all_subject_audits_units_splits_and_train_norm[5]
+tests/test_phase3.py::test_all_subject_audits_units_splits_and_train_norm[6]
+tests/test_phase3.py::test_all_subject_audits_units_splits_and_train_norm[7]
+tests/test_phase3.py::test_all_subject_audits_units_splits_and_train_norm[8]
+tests/test_phase3.py::test_all_subject_audits_units_splits_and_train_norm[9]
+tests/test_phase3.py::test_compressed_v2_runner_optimizer_and_no_test
+tests/test_phase3.py::test_formal_protocol_lock_rejects_changes_before_training
+tests/test_phase3.py::test_summary_complete_pairing_and_no_incomplete_inference
+tests/test_phase3.py::test_full_formal_suite_plans_integrity_and_pairing
+tests/test_phase3.py::test_learning_gate_evidence_is_T_only_and_predeclared
+
+22 tests collected in 3.89s

@@ -1,0 +1,12 @@
+{
+  "status":"planned_not_run",
+  "research_question":"Does mixed 8ch/22ch SSL reduce held-out full-22ch masked reconstruction generalization?",
+  "primary_metric":"target-element-pooled RMSE in volts on fixed full-22ch test masks",
+  "classification":"retained optional interface; not a primary endpoint",
+  "ratio_unit":"updates; one montage for whole batch",
+  "groups":{"A0":1.0,"A1":0.75,"A2":0.5,"A3":0.25},
+  "controls":["exposure matched exact 22ch events","fixed full 22ch event stream plus extra 8ch"],
+  "executable_config":"configs/rq1-S01.json",
+  "split":{"train_session":"T","test_session":"E","validation_trial_fraction":0.2,"split_seed":42},
+  "RQ2_RQ3":"not implemented; no negative transfer presumed"
+}

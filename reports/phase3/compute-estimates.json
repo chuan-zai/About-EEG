@@ -1,0 +1,26 @@
+{
+  "v1": {
+    "batch_size": 4,
+    "channels": 22,
+    "major_operator_MACs": {
+      "convolution": 455488000,
+      "attention_and_ffn": 30322688,
+      "head": 2816000
+    },
+    "total_major_operator_MACs": 488626688,
+    "FLOPs_with_2_per_MAC": 977253376,
+    "scope": "Analytical dense Conv/Linear/QK/AV forward estimate only; excludes bias, GELU, norm, softmax, copies, backward and optimizer. Not complete hardware FLOPs or runtime."
+  },
+  "v2": {
+    "batch_size": 4,
+    "channels": 22,
+    "major_operator_MACs": {
+      "convolution": 55475200,
+      "attention_and_ffn": 397619200,
+      "head": 1408000
+    },
+    "total_major_operator_MACs": 454502400,
+    "FLOPs_with_2_per_MAC": 909004800,
+    "scope": "Analytical dense Conv/Linear/QK/AV forward estimate only; excludes bias, GELU, norm, softmax, copies, backward and optimizer. Not complete hardware FLOPs or runtime."
+  }
+}

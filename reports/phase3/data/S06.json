@@ -1,0 +1,1383 @@
+{
+  "created_utc": "2026-11-05T14:44:43.501426+00:00",
+  "source_page": "https://bnci-horizon-2020.eu/database/data-sets",
+  "license": "CC BY-ND 4.0; attribution required; do not redistribute derived data without reviewing license",
+  "citation": "Tangermann et al. (2012), doi:10.3389/fnins.2012.00055",
+  "adapter_version": 1,
+  "files": [
+    {
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2014/A06T.mat",
+      "path": "/workspace/eeg-transfer/data/raw/A06T.mat",
+      "bytes": 44581256,
+      "sha256": "4dc3be1b0d60279134d1220323c73c68cf73799339a7fb224087a3c560a9a7e2"
+    },
+    {
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2014/A06E.mat",
+      "path": "/workspace/eeg-transfer/data/raw/A06E.mat",
+      "bytes": 43395510,
+      "sha256": "bf67a40621b74b6af7a986c2f6edfff7fc2bbbca237aadd07b575893032998d1"
+    }
+  ],
+  "processed": {
+    "path": "/workspace/eeg-transfer/data/processed/S06.npz",
+    "sha256": "0eb283db18536669526ea5e093cb0852a58c203ff5d7d98096f0c8f5019bd0eb"
+  },
+  "sessions": [
+    {
+      "path": "/workspace/eeg-transfer/data/raw/A06T.mat",
+      "sha256": "4dc3be1b0d60279134d1220323c73c68cf73799339a7fb224087a3c560a9a7e2",
+      "subject": "S06",
+      "session": "T",
+      "sfreq": 250.0,
+      "channels": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "P1",
+        "Pz",
+        "P2",
+        "POz"
+      ],
+      "excluded_channels": [
+        "EOG1",
+        "EOG2",
+        "EOG3"
+      ],
+      "source_unit": "uV",
+      "output_unit": "V",
+      "scale": 1e-06,
+      "epoch": "MAT trial onset + [2,6) seconds; 1000 samples",
+      "reject_artifacts": true,
+      "runs": [
+        {
+          "run": 1,
+          "shape": [
+            29184,
+            25
+          ],
+          "trials": 0,
+          "artifact_flags": 0,
+          "nonfinite_values": 0,
+          "accepted": 0,
+          "dropped": []
+        },
+        {
+          "run": 2,
+          "shape": [
+            31011,
+            25
+          ],
+          "trials": 0,
+          "artifact_flags": 0,
+          "nonfinite_values": 0,
+          "accepted": 0,
+          "dropped": []
+        },
+        {
+          "run": 3,
+          "shape": [
+            37575,
+            25
+          ],
+          "trials": 0,
+          "artifact_flags": 0,
+          "nonfinite_values": 0,
+          "accepted": 0,
+          "dropped": []
+        },
+        {
+          "run": 4,
+          "shape": [
+            96735,
+            25
+          ],
+          "trials": 48,
+          "artifact_flags": 5,
+          "nonfinite_values": 0,
+          "accepted": 43,
+          "dropped": [
+            {
+              "trial": "run04_trial035",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run04_trial038",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run04_trial039",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run04_trial046",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run04_trial047",
+              "reason": "official_artifact"
+            }
+          ]
+        },
+        {
+          "run": 5,
+          "shape": [
+            96735,
+            25
+          ],
+          "trials": 48,
+          "artifact_flags": 15,
+          "nonfinite_values": 0,
+          "accepted": 33,
+          "dropped": [
+            {
+              "trial": "run05_trial001",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial003",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial010",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial018",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial027",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial028",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial030",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial034",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial036",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial039",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial042",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial044",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial045",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial046",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial048",
+              "reason": "official_artifact"
+            }
+          ]
+        },
+        {
+          "run": 6,
+          "shape": [
+            96735,
+            25
+          ],
+          "trials": 48,
+          "artifact_flags": 13,
+          "nonfinite_values": 0,
+          "accepted": 35,
+          "dropped": [
+            {
+              "trial": "run06_trial001",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial002",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial010",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial026",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial029",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial032",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial033",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial036",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial040",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial041",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial043",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial045",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial046",
+              "reason": "official_artifact"
+            }
+          ]
+        },
+        {
+          "run": 7,
+          "shape": [
+            96735,
+            25
+          ],
+          "trials": 48,
+          "artifact_flags": 10,
+          "nonfinite_values": 0,
+          "accepted": 38,
+          "dropped": [
+            {
+              "trial": "run07_trial001",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run07_trial005",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run07_trial011",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run07_trial014",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run07_trial016",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run07_trial019",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run07_trial020",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run07_trial038",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run07_trial043",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run07_trial048",
+              "reason": "official_artifact"
+            }
+          ]
+        },
+        {
+          "run": 8,
+          "shape": [
+            96735,
+            25
+          ],
+          "trials": 48,
+          "artifact_flags": 7,
+          "nonfinite_values": 0,
+          "accepted": 41,
+          "dropped": [
+            {
+              "trial": "run08_trial003",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run08_trial008",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run08_trial015",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run08_trial018",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run08_trial030",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run08_trial039",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run08_trial048",
+              "reason": "official_artifact"
+            }
+          ]
+        },
+        {
+          "run": 9,
+          "shape": [
+            96735,
+            25
+          ],
+          "trials": 48,
+          "artifact_flags": 19,
+          "nonfinite_values": 0,
+          "accepted": 29,
+          "dropped": [
+            {
+              "trial": "run09_trial013",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run09_trial017",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run09_trial021",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run09_trial022",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run09_trial023",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run09_trial024",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run09_trial025",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run09_trial027",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run09_trial028",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run09_trial031",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run09_trial033",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run09_trial034",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run09_trial037",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run09_trial038",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run09_trial041",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run09_trial044",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run09_trial046",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run09_trial047",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run09_trial048",
+              "reason": "official_artifact"
+            }
+          ]
+        }
+      ],
+      "accepted_trials": 219,
+      "class_counts": [
+        56,
+        57,
+        49,
+        57
+      ],
+      "min_V": -9.999999747378752e-05,
+      "max_V": 8.554687519790605e-05,
+      "std_V": 1.2485170373111032e-05,
+      "constant_electrode_trials": 0,
+      "nonfinite_epoch_values": 0,
+      "peak_abs_above_1mV_trials": 0
+    },
+    {
+      "path": "/workspace/eeg-transfer/data/raw/A06E.mat",
+      "sha256": "bf67a40621b74b6af7a986c2f6edfff7fc2bbbca237aadd07b575893032998d1",
+      "subject": "S06",
+      "session": "E",
+      "sfreq": 250.0,
+      "channels": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "P1",
+        "Pz",
+        "P2",
+        "POz"
+      ],
+      "excluded_channels": [
+        "EOG1",
+        "EOG2",
+        "EOG3"
+      ],
+      "source_unit": "uV",
+      "output_unit": "V",
+      "scale": 1e-06,
+      "epoch": "MAT trial onset + [2,6) seconds; 1000 samples",
+      "reject_artifacts": true,
+      "runs": [
+        {
+          "run": 1,
+          "shape": [
+            25614,
+            25
+          ],
+          "trials": 0,
+          "artifact_flags": 0,
+          "nonfinite_values": 0,
+          "accepted": 0,
+          "dropped": []
+        },
+        {
+          "run": 2,
+          "shape": [
+            23562,
+            25
+          ],
+          "trials": 0,
+          "artifact_flags": 0,
+          "nonfinite_values": 0,
+          "accepted": 0,
+          "dropped": []
+        },
+        {
+          "run": 3,
+          "shape": [
+            35987,
+            25
+          ],
+          "trials": 0,
+          "artifact_flags": 0,
+          "nonfinite_values": 0,
+          "accepted": 0,
+          "dropped": []
+        },
+        {
+          "run": 4,
+          "shape": [
+            96735,
+            25
+          ],
+          "trials": 48,
+          "artifact_flags": 8,
+          "nonfinite_values": 0,
+          "accepted": 40,
+          "dropped": [
+            {
+              "trial": "run04_trial005",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run04_trial020",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run04_trial032",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run04_trial042",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run04_trial043",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run04_trial044",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run04_trial046",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run04_trial048",
+              "reason": "official_artifact"
+            }
+          ]
+        },
+        {
+          "run": 5,
+          "shape": [
+            96735,
+            25
+          ],
+          "trials": 48,
+          "artifact_flags": 20,
+          "nonfinite_values": 0,
+          "accepted": 28,
+          "dropped": [
+            {
+              "trial": "run05_trial001",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial006",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial007",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial018",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial020",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial022",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial028",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial029",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial030",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial033",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial034",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial035",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial038",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial039",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial040",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial043",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial045",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial046",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial047",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run05_trial048",
+              "reason": "official_artifact"
+            }
+          ]
+        },
+        {
+          "run": 6,
+          "shape": [
+            96735,
+            25
+          ],
+          "trials": 48,
+          "artifact_flags": 22,
+          "nonfinite_values": 0,
+          "accepted": 26,
+          "dropped": [
+            {
+              "trial": "run06_trial001",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial009",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial010",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial011",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial012",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial013",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial017",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial018",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial019",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial020",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial025",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial026",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial029",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial030",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial032",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial033",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial035",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial036",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial040",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial041",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial043",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run06_trial046",
+              "reason": "official_artifact"
+            }
+          ]
+        },
+        {
+          "run": 7,
+          "shape": [
+            96735,
+            25
+          ],
+          "trials": 48,
+          "artifact_flags": 5,
+          "nonfinite_values": 0,
+          "accepted": 43,
+          "dropped": [
+            {
+              "trial": "run07_trial001",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run07_trial005",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run07_trial037",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run07_trial046",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run07_trial048",
+              "reason": "official_artifact"
+            }
+          ]
+        },
+        {
+          "run": 8,
+          "shape": [
+            96735,
+            25
+          ],
+          "trials": 48,
+          "artifact_flags": 14,
+          "nonfinite_values": 0,
+          "accepted": 34,
+          "dropped": [
+            {
+              "trial": "run08_trial001",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run08_trial002",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run08_trial003",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run08_trial009",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run08_trial019",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run08_trial021",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run08_trial034",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run08_trial035",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run08_trial036",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run08_trial040",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run08_trial042",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run08_trial043",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run08_trial044",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run08_trial047",
+              "reason": "official_artifact"
+            }
+          ]
+        },
+        {
+          "run": 9,
+          "shape": [
+            96735,
+            25
+          ],
+          "trials": 48,
+          "artifact_flags": 4,
+          "nonfinite_values": 0,
+          "accepted": 44,
+          "dropped": [
+            {
+              "trial": "run09_trial001",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run09_trial002",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run09_trial036",
+              "reason": "official_artifact"
+            },
+            {
+              "trial": "run09_trial039",
+              "reason": "official_artifact"
+            }
+          ]
+        }
+      ],
+      "accepted_trials": 215,
+      "class_counts": [
+        53,
+        55,
+        54,
+        53
+      ],
+      "min_V": -9.999999747378752e-05,
+      "max_V": 9.33105475269258e-05,
+      "std_V": 1.2276288543944247e-05,
+      "constant_electrode_trials": 0,
+      "nonfinite_epoch_values": 0,
+      "peak_abs_above_1mV_trials": 0
+    }
+  ],
+  "split_seed": 42,
+  "split_counts": {
+    "train": 175,
+    "validation": 44,
+    "test": 215
+  },
+  "splits": {
+    "train": [
+      "run07_trial042",
+      "run07_trial045",
+      "run09_trial043",
+      "run07_trial031",
+      "run08_trial011",
+      "run08_trial010",
+      "run04_trial005",
+      "run08_trial028",
+      "run05_trial047",
+      "run04_trial034",
+      "run05_trial012",
+      "run04_trial004",
+      "run04_trial030",
+      "run09_trial001",
+      "run09_trial035",
+      "run08_trial022",
+      "run06_trial027",
+      "run04_trial009",
+      "run06_trial044",
+      "run06_trial039",
+      "run06_trial030",
+      "run07_trial007",
+      "run07_trial029",
+      "run05_trial040",
+      "run04_trial028",
+      "run07_trial041",
+      "run05_trial017",
+      "run06_trial016",
+      "run04_trial003",
+      "run04_trial033",
+      "run05_trial033",
+      "run09_trial042",
+      "run06_trial007",
+      "run08_trial041",
+      "run05_trial016",
+      "run05_trial031",
+      "run05_trial013",
+      "run07_trial046",
+      "run04_trial029",
+      "run08_trial024",
+      "run06_trial008",
+      "run04_trial013",
+      "run09_trial032",
+      "run07_trial032",
+      "run04_trial001",
+      "run08_trial001",
+      "run06_trial031",
+      "run05_trial024",
+      "run07_trial015",
+      "run06_trial009",
+      "run06_trial023",
+      "run04_trial043",
+      "run07_trial021",
+      "run07_trial035",
+      "run09_trial030",
+      "run09_trial016",
+      "run04_trial014",
+      "run08_trial029",
+      "run07_trial013",
+      "run07_trial028",
+      "run06_trial020",
+      "run09_trial029",
+      "run04_trial006",
+      "run06_trial013",
+      "run05_trial021",
+      "run05_trial008",
+      "run09_trial002",
+      "run07_trial030",
+      "run09_trial045",
+      "run09_trial010",
+      "run08_trial006",
+      "run08_trial013",
+      "run07_trial044",
+      "run07_trial024",
+      "run06_trial005",
+      "run08_trial044",
+      "run07_trial012",
+      "run08_trial045",
+      "run07_trial006",
+      "run08_trial007",
+      "run06_trial011",
+      "run07_trial018",
+      "run05_trial005",
+      "run06_trial035",
+      "run06_trial018",
+      "run04_trial019",
+      "run08_trial005",
+      "run06_trial015",
+      "run07_trial002",
+      "run05_trial041",
+      "run08_trial025",
+      "run04_trial022",
+      "run06_trial021",
+      "run09_trial036",
+      "run05_trial029",
+      "run09_trial006",
+      "run06_trial028",
+      "run05_trial038",
+      "run08_trial046",
+      "run08_trial017",
+      "run07_trial022",
+      "run09_trial015",
+      "run07_trial009",
+      "run05_trial043",
+      "run08_trial002",
+      "run04_trial011",
+      "run07_trial008",
+      "run08_trial012",
+      "run05_trial025",
+      "run04_trial002",
+      "run04_trial048",
+      "run07_trial017",
+      "run04_trial018",
+      "run09_trial011",
+      "run05_trial014",
+      "run06_trial003",
+      "run08_trial031",
+      "run04_trial044",
+      "run05_trial035",
+      "run08_trial042",
+      "run07_trial026",
+      "run08_trial023",
+      "run06_trial038",
+      "run08_trial027",
+      "run04_trial012",
+      "run07_trial040",
+      "run05_trial002",
+      "run08_trial047",
+      "run08_trial014",
+      "run05_trial023",
+      "run05_trial019",
+      "run08_trial037",
+      "run04_trial024",
+      "run08_trial020",
+      "run08_trial043",
+      "run04_trial016",
+      "run08_trial033",
+      "run05_trial022",
+      "run06_trial047",
+      "run07_trial034",
+      "run04_trial032",
+      "run04_trial017",
+      "run05_trial004",
+      "run09_trial014",
+      "run09_trial009",
+      "run04_trial036",
+      "run04_trial031",
+      "run05_trial020",
+      "run04_trial037",
+      "run06_trial004",
+      "run08_trial040",
+      "run05_trial009",
+      "run04_trial007",
+      "run06_trial034",
+      "run08_trial032",
+      "run07_trial036",
+      "run09_trial012",
+      "run04_trial045",
+      "run06_trial048",
+      "run04_trial023",
+      "run04_trial020",
+      "run08_trial019",
+      "run05_trial026",
+      "run05_trial007",
+      "run07_trial004",
+      "run07_trial037",
+      "run08_trial038",
+      "run04_trial015",
+      "run07_trial039",
+      "run09_trial005",
+      "run04_trial040",
+      "run06_trial025",
+      "run09_trial004",
+      "run09_trial018",
+      "run07_trial033"
+    ],
+    "validation": [
+      "run09_trial007",
+      "run06_trial019",
+      "run04_trial008",
+      "run08_trial035",
+      "run06_trial006",
+      "run04_trial027",
+      "run08_trial026",
+      "run07_trial010",
+      "run07_trial003",
+      "run08_trial016",
+      "run08_trial021",
+      "run05_trial011",
+      "run09_trial039",
+      "run06_trial022",
+      "run07_trial047",
+      "run06_trial037",
+      "run06_trial012",
+      "run08_trial004",
+      "run09_trial026",
+      "run07_trial027",
+      "run07_trial023",
+      "run09_trial008",
+      "run06_trial014",
+      "run04_trial041",
+      "run04_trial021",
+      "run09_trial003",
+      "run09_trial020",
+      "run09_trial040",
+      "run08_trial009",
+      "run07_trial025",
+      "run04_trial025",
+      "run04_trial042",
+      "run05_trial015",
+      "run08_trial034",
+      "run04_trial026",
+      "run06_trial024",
+      "run05_trial037",
+      "run09_trial019",
+      "run08_trial036",
+      "run06_trial017",
+      "run05_trial006",
+      "run06_trial042",
+      "run05_trial032",
+      "run04_trial010"
+    ],
+    "test": [
+      "run04_trial001",
+      "run04_trial002",
+      "run04_trial003",
+      "run04_trial004",
+      "run04_trial006",
+      "run04_trial007",
+      "run04_trial008",
+      "run04_trial009",
+      "run04_trial010",
+      "run04_trial011",
+      "run04_trial012",
+      "run04_trial013",
+      "run04_trial014",
+      "run04_trial015",
+      "run04_trial016",
+      "run04_trial017",
+      "run04_trial018",
+      "run04_trial019",
+      "run04_trial021",
+      "run04_trial022",
+      "run04_trial023",
+      "run04_trial024",
+      "run04_trial025",
+      "run04_trial026",
+      "run04_trial027",
+      "run04_trial028",
+      "run04_trial029",
+      "run04_trial030",
+      "run04_trial031",
+      "run04_trial033",
+      "run04_trial034",
+      "run04_trial035",
+      "run04_trial036",
+      "run04_trial037",
+      "run04_trial038",
+      "run04_trial039",
+      "run04_trial040",
+      "run04_trial041",
+      "run04_trial045",
+      "run04_trial047",
+      "run05_trial002",
+      "run05_trial003",
+      "run05_trial004",
+      "run05_trial005",
+      "run05_trial008",
+      "run05_trial009",
+      "run05_trial010",
+      "run05_trial011",
+      "run05_trial012",
+      "run05_trial013",
+      "run05_trial014",
+      "run05_trial015",
+      "run05_trial016",
+      "run05_trial017",
+      "run05_trial019",
+      "run05_trial021",
+      "run05_trial023",
+      "run05_trial024",
+      "run05_trial025",
+      "run05_trial026",
+      "run05_trial027",
+      "run05_trial031",
+      "run05_trial032",
+      "run05_trial036",
+      "run05_trial037",
+      "run05_trial041",
+      "run05_trial042",
+      "run05_trial044",
+      "run06_trial002",
+      "run06_trial003",
+      "run06_trial004",
+      "run06_trial005",
+      "run06_trial006",
+      "run06_trial007",
+      "run06_trial008",
+      "run06_trial014",
+      "run06_trial015",
+      "run06_trial016",
+      "run06_trial021",
+      "run06_trial022",
+      "run06_trial023",
+      "run06_trial024",
+      "run06_trial027",
+      "run06_trial028",
+      "run06_trial031",
+      "run06_trial034",
+      "run06_trial037",
+      "run06_trial038",
+      "run06_trial039",
+      "run06_trial042",
+      "run06_trial044",
+      "run06_trial045",
+      "run06_trial047",
+      "run06_trial048",
+      "run07_trial002",
+      "run07_trial003",
+      "run07_trial004",
+      "run07_trial006",
+      "run07_trial007",
+      "run07_trial008",
+      "run07_trial009",
+      "run07_trial010",
+      "run07_trial011",
+      "run07_trial012",
+      "run07_trial013",
+      "run07_trial014",
+      "run07_trial015",
+      "run07_trial016",
+      "run07_trial017",
+      "run07_trial018",
+      "run07_trial019",
+      "run07_trial020",
+      "run07_trial021",
+      "run07_trial022",
+      "run07_trial023",
+      "run07_trial024",
+      "run07_trial025",
+      "run07_trial026",
+      "run07_trial027",
+      "run07_trial028",
+      "run07_trial029",
+      "run07_trial030",
+      "run07_trial031",
+      "run07_trial032",
+      "run07_trial033",
+      "run07_trial034",
+      "run07_trial035",
+      "run07_trial036",
+      "run07_trial038",
+      "run07_trial039",
+      "run07_trial040",
+      "run07_trial041",
+      "run07_trial042",
+      "run07_trial043",
+      "run07_trial044",
+      "run07_trial045",
+      "run07_trial047",
+      "run08_trial004",
+      "run08_trial005",
+      "run08_trial006",
+      "run08_trial007",
+      "run08_trial008",
+      "run08_trial010",
+      "run08_trial011",
+      "run08_trial012",
+      "run08_trial013",
+      "run08_trial014",
+      "run08_trial015",
+      "run08_trial016",
+      "run08_trial017",
+      "run08_trial018",
+      "run08_trial020",
+      "run08_trial022",
+      "run08_trial023",
+      "run08_trial024",
+      "run08_trial025",
+      "run08_trial026",
+      "run08_trial027",
+      "run08_trial028",
+      "run08_trial029",
+      "run08_trial030",
+      "run08_trial031",
+      "run08_trial032",
+      "run08_trial033",
+      "run08_trial037",
+      "run08_trial038",
+      "run08_trial039",
+      "run08_trial041",
+      "run08_trial045",
+      "run08_trial046",
+      "run08_trial048",
+      "run09_trial003",
+      "run09_trial004",
+      "run09_trial005",
+      "run09_trial006",
+      "run09_trial007",
+      "run09_trial008",
+      "run09_trial009",
+      "run09_trial010",
+      "run09_trial011",
+      "run09_trial012",
+      "run09_trial013",
+      "run09_trial014",
+      "run09_trial015",
+      "run09_trial016",
+      "run09_trial017",
+      "run09_trial018",
+      "run09_trial019",
+      "run09_trial020",
+      "run09_trial021",
+      "run09_trial022",
+      "run09_trial023",
+      "run09_trial024",
+      "run09_trial025",
+      "run09_trial026",
+      "run09_trial027",
+      "run09_trial028",
+      "run09_trial029",
+      "run09_trial030",
+      "run09_trial031",
+      "run09_trial032",
+      "run09_trial033",
+      "run09_trial034",
+      "run09_trial035",
+      "run09_trial037",
+      "run09_trial038",
+      "run09_trial040",
+      "run09_trial041",
+      "run09_trial042",
+      "run09_trial043",
+      "run09_trial044",
+      "run09_trial045",
+      "run09_trial046",
+      "run09_trial047",
+      "run09_trial048"
+    ]
+  }
+}

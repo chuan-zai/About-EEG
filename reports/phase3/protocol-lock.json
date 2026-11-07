@@ -1,0 +1,70 @@
+{
+  "ready_for_formal_run": true,
+  "status": "locked_for_predeclared_RQ1_not_yet_run",
+  "architecture": {
+    "model_version": "v2",
+    "dim": 64,
+    "layers": 2,
+    "patch_size": 5
+  },
+  "fixed_hyperparameters": {
+    "split_seed": 42,
+    "time": 250,
+    "stride": 250,
+    "lr": 0.001,
+    "weight_decay": 0.01,
+    "batch_size": 4,
+    "steps": 1000,
+    "evaluation_seeds": [
+      1101,
+      2202,
+      3303
+    ],
+    "evaluation_trial_limit": null,
+    "minimum_evaluation_coverage": {
+      "validation": 20,
+      "test": 100
+    }
+  },
+  "performance_gate_passed": true,
+  "subject_count": 9,
+  "paired_training_seeds": [
+    42,
+    43,
+    44
+  ],
+  "formal_runs_started": 0,
+  "v2_validation_config_sha256": "322b92a9d62b01bc994e0a0c2dad26479cf714926dcf36e77bb0c47d0f30124a",
+  "suite_config_sha256": "bc8b5dc1ce2b2af3b2b97b7ad7ba4bc78c5da2fa5e3ab48ce503fff64271afcb",
+  "complete_manifest_sha256": "fed194badefae83a3eb00e58d35f7a699fe58e513ba26e29fdfdbfc937997e53",
+  "code_sha256": {
+    "__init__.py": "2dbaa71e45bc3add54961d25ac5fb006eb994c179af2159ddee5baa8f704ff3f",
+    "bnci.py": "d93d0891a6db80f1e5012dcc7571516eb3d87b6d82ebc9eb045bf4d7c9eab04d",
+    "compute.py": "2e91c650f94b51aabeea1450bc2b72e563114cead281c1c188f46ac643ef27d5",
+    "data.py": "f5fbf9ab723188cd6fadc77ec37fe78c3531c1bd7e52f50e0c9b3956e79534e9",
+    "dataset_suite.py": "a0f264f1e568e1c8e171f7f14a119fbcc3e431a49586a4779502628b71607362",
+    "evaluate.py": "2da14c9e7953c274d7b7674b626a483ba35c3950ce301d81777b8634c0ffe01f",
+    "experiment.py": "d59280b375d659ce9f07ae16456d6c58d72c055ad6b85741b9a3f2415bdf0ed4",
+    "masking.py": "07f069463d464b08ca60a0de45b66d3a8de2edb42e7fb39d2f42ba924d097ac6",
+    "model.py": "8f651b979dd2c14acd15f47e07fa6431b0adc082b514ba123aab20ba64925fe4",
+    "model_v2.py": "9c9001770820dc4872e2af23ec28300520cc624f492f95b1e6fbacc43170500d",
+    "models.py": "4cb60b15ea7fb7fc0843a0eef6d200e24f2da024fe140b62e2786f300d79b08a",
+    "plans.py": "095f796f1e693c69905b03f1f3974b0c555991e2c67fc21e237324c771531599",
+    "reconstruction.py": "240133b2ad84a28ea5a59b872abeb0a1f11eb9b0eeac9ca0590ccac53a5fb1d5",
+    "regions.py": "bbc8450d924eac1b54fa59c8533709c5c5c8b4bbe6d299b4a7fa1471345cc8bd",
+    "statistics.py": "b2a1cbd93ceb42d55d6a97235401ac9fd3b6c53e18851a3917093879d5785f74",
+    "suite.py": "046a16e15c0c2f2388bdf19ea9f6199ee3ee8c8d0373ffb46fba0507cfbed13d",
+    "summarize.py": "5393fdd5ed08903ef15652c5e4ea66f6ade21c98bbc83f317a33080c653681ce",
+    "train.py": "542d699414235cd5d7122de59c851a95e6e4c6f188850afd9ac65e5bb9153835",
+    "validation.py": "322e969f0abe8b182e397f6d8c5654ea77e71dac3fc9eb359ea4f00953ef31f4"
+  },
+  "limitations": [
+    "Only S01 T validation used for model choice; no population-generalization guarantee",
+    "CUDA untested",
+    "Exact mid-run resume unsupported; restart same fixed plan in new directory",
+    "No usable workspace Git index/history; ignore rules independently verified",
+    "Small N=9 subject-level inference assumptions require careful interpretation"
+  ],
+  "tests": "38 passed in 171.15s",
+  "tests_sha256": "447846add267ebd5faa04baceb6e2633606761581c6c2de3c2d7cf6c823cd1a9"
+}

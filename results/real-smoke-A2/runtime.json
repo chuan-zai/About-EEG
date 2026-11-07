@@ -1,0 +1,12 @@
+{
+  "training_seconds": 0.21857979699984753,
+  "budget": {
+    "total_updates": 4,
+    "updates_22": 2,
+    "updates_8": 2,
+    "target_elements": 4096,
+    "input_slots": 22528,
+    "note": "Dense 22-slot model processes all slots; wall time is also logged. Extra/exposure controls have different total compute."
+  },
+  "peak_cuda_memory_bytes": null
+}

@@ -1,0 +1,24 @@
+{
+  "status":"candidate_until_validation_and_tests_pass",
+  "subjects":[1,2,3,4,5,6,7,8,9],"seeds":[42,43,44],
+  "groups":["A0","A1","A2","A3","A1_exposure","A2_exposure","A3_exposure","A1_extra","A2_extra","A3_extra"],
+  "template":{
+    "purpose":"RQ1_and_regional_reconstruction_fixed_protocol",
+    "model_version":"v2","dim":64,"layers":2,"patch_size":5,
+    "split_seed":42,"device":"auto","threads":1,
+    "time":250,"stride":250,"lr":0.001,"weight_decay":0.01,
+    "batch_size":4,"steps":1000,"evaluation_seeds":[1101,2202,3303],
+    "evaluation_batch_size":8,"evaluation_trial_limit":null,
+    "minimum_evaluation_coverage":{"validation":20,"test":100},
+    "compress_plans":true,"protocol_lock":"reports/phase3/protocol-lock.json"
+  },
+  "statistics":{
+    "primary":"A1/A2/A3 minus A0 global random25 RMSE_V; positive = worse",
+    "aggregation":"paired seed effects averaged within subject, then unweighted mean over 9 subjects",
+    "primary_multiplicity":"3 two-sided exact sign-flip tests; Holm familywise 0.05",
+    "confidence_intervals":"paired subject bootstrap 20000 draws seed9173; 95% percentile plus Bonferroni family-size3 intervals",
+    "regional":"outside14 relative RMSE change minus inside8 relative change, random25 only; exploratory separate Holm family of3",
+    "outside14_and_controls":"descriptive; not additional uncorrected confirmatory tests",
+    "missing_runs":"no complete-case inference; report missing, retry same fixed seed or state incomplete"
+  }
+}

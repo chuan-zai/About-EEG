@@ -1,2 +1,21 @@
+.venv/
 __pycache__/
+.pytest_cache/
+*.egg-info/
+data/
+results/rq1-*/
+
+# Keep model binaries and credentials local; retain configs/reports/logs.
+*.pt
+*.pth
+*.ckpt
+.env
+.env.*
+!.env.example
+
+# These contain metadata/checksums only, not EEG signal arrays.
+!reports/phase3/data/
+!reports/phase3/data/*.json
+
+# Preserve remote bootstrap temporary-download exclusion.
 *.part

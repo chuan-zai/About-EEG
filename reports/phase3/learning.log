@@ -1,0 +1,18 @@
+USDT:2026-11-05 14:44:32 2734:2734 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-05 14:44:32 2734:2734 SyncActivityProfilerHandler.cpp:46] profiler_stop
+v1 42 initial 9.748920763259365e-06 final 9.520473862525775e-06 seconds 9.205640110000331
+USDT:2026-11-05 14:44:47 2734:2734 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-05 14:44:47 2734:2734 SyncActivityProfilerHandler.cpp:46] profiler_stop
+v2 42 initial 9.737078291958893e-06 final 3.6239150814117183e-06 seconds 32.34108388100003
+USDT:2026-11-05 14:45:24 2734:2734 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-05 14:45:24 2734:2734 SyncActivityProfilerHandler.cpp:46] profiler_stop
+v1 43 initial 9.767772731571155e-06 final 9.520899619970307e-06 seconds 17.195263609999984
+USDT:2026-11-05 14:45:57 2734:2734 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-05 14:45:57 2734:2734 SyncActivityProfilerHandler.cpp:46] profiler_stop
+v2 43 initial 9.891141008551455e-06 final 3.6431699122282316e-06 seconds 60.314419954000186
+USDT:2026-11-05 14:47:08 2734:2734 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-05 14:47:08 2734:2734 SyncActivityProfilerHandler.cpp:46] profiler_stop
+v1 44 initial 9.747578351922822e-06 final 9.525748858899058e-06 seconds 24.217514865999874
+USDT:2026-11-05 14:47:42 2734:2734 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-05 14:47:43 2734:2734 SyncActivityProfilerHandler.cpp:46] profiler_stop
+v2 44 initial 9.978341123662002e-06 final 3.557562468257718e-06 seconds 21.032232617000318

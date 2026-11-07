@@ -1,0 +1,27 @@
+{
+  "checked_utc": "2026-11-05",
+  "moabb_installed": false,
+  "note": "Official MAT downloaded directly; adapter follows MOABB source snapshot, no dependence on moving develop at runtime. description.txt is pdftotext output; PDF retained under ignored data directory.",
+  "sources": [
+    {
+      "path": "reports/sources/moabb_bnci_2014.py.txt",
+      "url": "https://raw.githubusercontent.com/NeuroTechX/moabb/develop/moabb/datasets/bnci/bnci_2014.py",
+      "sha256": "b77e6c116af9674ab78626a43d58d2e40361bd38a4c88a302af51ca1eb5d19b3"
+    },
+    {
+      "path": "reports/sources/moabb_bnci_base.py.txt",
+      "url": "https://raw.githubusercontent.com/NeuroTechX/moabb/develop/moabb/datasets/bnci/base.py",
+      "sha256": "47aaa596f3147550ce051e548eb552f3723ecd429368affd2ef48cea0c36e21a"
+    },
+    {
+      "path": "reports/sources/description.txt",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2014/description.pdf",
+      "sha256": "89d8aec63d0d97138f6d9fd4bdcecd71ebb93976877e5ec799e33b3e57c791d6"
+    },
+    {
+      "path": "reports/sources/datasets.html",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets",
+      "sha256": "4976c7234b44ade601b5f28ba637f6016dd1fff70d5683443ff09bf9ecd698b8"
+    }
+  ]
+}

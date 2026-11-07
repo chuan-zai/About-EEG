@@ -1,0 +1,27 @@
+{
+  "checks": {
+    "historical_files_unchanged": true,
+    "code_lock_matches": true,
+    "architecture_matches": true,
+    "hyperparameters_match": true,
+    "subject_seed_group_grid": true,
+    "paired_seeds_match": true
+  },
+  "historical_files_checked": 112,
+  "model_parameters": 98053,
+  "compute_estimate": {
+    "batch_size": 4,
+    "channels": 22,
+    "major_operator_MACs": {
+      "convolution": 55475200,
+      "attention_and_ffn": 397619200,
+      "head": 1408000
+    },
+    "total_major_operator_MACs": 454502400,
+    "FLOPs_with_2_per_MAC": 909004800,
+    "scope": "Analytical dense Conv/Linear/QK/AV forward estimate only; excludes bias, GELU, norm, softmax, copies, backward and optimizer. Not complete hardware FLOPs or runtime."
+  },
+  "formal_training_started_this_turn": 0,
+  "current_formal_readiness": false,
+  "reason": "Missing real data and formal plans; no data integration validation"
+}

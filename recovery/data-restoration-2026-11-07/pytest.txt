@@ -1,0 +1,18 @@
+.............sss........sssssssssss.s.                                   [100%]
+=========================== short test summary info ============================
+SKIPPED [1] tests/test_phase2.py:92: Run BNCI preparation to enable real-data integration test
+SKIPPED [1] tests/test_phase2.py:114: Real data not prepared
+SKIPPED [1] tests/test_phase2.py:135: Real data not prepared
+SKIPPED [1] tests/test_phase3.py:107: S01 acquisition incomplete
+SKIPPED [1] tests/test_phase3.py:107: S02 acquisition incomplete
+SKIPPED [1] tests/test_phase3.py:107: S03 acquisition incomplete
+SKIPPED [1] tests/test_phase3.py:107: S04 acquisition incomplete
+SKIPPED [1] tests/test_phase3.py:107: S05 acquisition incomplete
+SKIPPED [1] tests/test_phase3.py:107: S06 acquisition incomplete
+SKIPPED [1] tests/test_phase3.py:107: S07 acquisition incomplete
+SKIPPED [1] tests/test_phase3.py:107: S08 acquisition incomplete
+SKIPPED [1] tests/test_phase3.py:107: S09 acquisition incomplete
+SKIPPED [1] tests/test_phase3.py:130: S01 integration data not prepared
+SKIPPED [1] tests/test_phase3.py:147: S01 integration data not prepared
+SKIPPED [1] tests/test_phase3.py:190: Formal integration plans not prepared
+23 passed, 15 skipped in 4.80s
