@@ -1,0 +1,9 @@
+{
+  "runs_prepared": 270,
+  "plan_packages": 27,
+  "evaluation_hashes_match_history": true,
+  "data_hashes_match_history": true,
+  "gzip_sha_differences": 270,
+  "gzip_note": "New gzip timestamp, paths and execution metadata may change package bytes; data and scientific event/mask checks are separate. Historical hashes retained.",
+  "formal_runs_started": 0
+}

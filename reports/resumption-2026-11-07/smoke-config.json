@@ -1,0 +1,26 @@
+{
+  "purpose": "restored_environment_smoke_only_not_formal",
+  "model_version": "v2",
+  "dim": 64,
+  "layers": 2,
+  "patch_size": 5,
+  "split_seed": 42,
+  "device": "auto",
+  "threads": 1,
+  "time": 250,
+  "stride": 250,
+  "lr": 0.001,
+  "weight_decay": 0.01,
+  "batch_size": 4,
+  "steps": 4,
+  "evaluation_seeds": [
+    1101,
+    2202,
+    3303
+  ],
+  "evaluation_batch_size": 8,
+  "evaluation_trial_limit": 1,
+  "compress_plans": true,
+  "data_path": "data/processed/S01.npz",
+  "seed": 42
+}

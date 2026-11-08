@@ -19,3 +19,10 @@ results/rq1-*/
 
 # Preserve remote bootstrap temporary-download exclusion.
 *.part
+
+# Managed preview launcher is local tooling only.
+.console-preview/
+
+# Restored audit JSON contains metadata and checksums only.
+!reports/resumption-2026-11-07/data/
+!reports/resumption-2026-11-07/data/*.json

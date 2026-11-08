@@ -1,0 +1,21 @@
+{
+  "eeg_transfer/bnci.py": "d93d0891a6db80f1e5012dcc7571516eb3d87b6d82ebc9eb045bf4d7c9eab04d",
+  "eeg_transfer/model.py": "8f651b979dd2c14acd15f47e07fa6431b0adc082b514ba123aab20ba64925fe4",
+  "eeg_transfer/masking.py": "07f069463d464b08ca60a0de45b66d3a8de2edb42e7fb39d2f42ba924d097ac6",
+  "eeg_transfer/regions.py": "bbc8450d924eac1b54fa59c8533709c5c5c8b4bbe6d299b4a7fa1471345cc8bd",
+  "eeg_transfer/experiment.py": "d59280b375d659ce9f07ae16456d6c58d72c055ad6b85741b9a3f2415bdf0ed4",
+  "eeg_transfer/model_v2.py": "9c9001770820dc4872e2af23ec28300520cc624f492f95b1e6fbacc43170500d",
+  "eeg_transfer/plans.py": "095f796f1e693c69905b03f1f3974b0c555991e2c67fc21e237324c771531599",
+  "eeg_transfer/statistics.py": "b2a1cbd93ceb42d55d6a97235401ac9fd3b6c53e18851a3917093879d5785f74",
+  "eeg_transfer/train.py": "542d699414235cd5d7122de59c851a95e6e4c6f188850afd9ac65e5bb9153835",
+  "eeg_transfer/compute.py": "2e91c650f94b51aabeea1450bc2b72e563114cead281c1c188f46ac643ef27d5",
+  "eeg_transfer/__init__.py": "2dbaa71e45bc3add54961d25ac5fb006eb994c179af2159ddee5baa8f704ff3f",
+  "eeg_transfer/dataset_suite.py": "a0f264f1e568e1c8e171f7f14a119fbcc3e431a49586a4779502628b71607362",
+  "eeg_transfer/models.py": "4cb60b15ea7fb7fc0843a0eef6d200e24f2da024fe140b62e2786f300d79b08a",
+  "eeg_transfer/evaluate.py": "2da14c9e7953c274d7b7674b626a483ba35c3950ce301d81777b8634c0ffe01f",
+  "eeg_transfer/suite.py": "b8fe3c2709b146ea3183fbd21d7396d74a2050a8a87a8de029326480700ff88b",
+  "eeg_transfer/data.py": "f5fbf9ab723188cd6fadc77ec37fe78c3531c1bd7e52f50e0c9b3956e79534e9",
+  "eeg_transfer/validation.py": "322e969f0abe8b182e397f6d8c5654ea77e71dac3fc9eb359ea4f00953ef31f4",
+  "eeg_transfer/reconstruction.py": "240133b2ad84a28ea5a59b872abeb0a1f11eb9b0eeac9ca0590ccac53a5fb1d5",
+  "eeg_transfer/summarize.py": "5393fdd5ed08903ef15652c5e4ea66f6ade21c98bbc83f317a33080c653681ce"
+}

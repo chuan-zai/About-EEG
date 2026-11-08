@@ -7,7 +7,11 @@ from .plans import digest, evaluation_coverage
 from .bnci import sha256
 
 
-def prepare_suite(config_path,out):
+def prepare_suite(config_path,out,reports="reports/phase3",results_root="results/rq1-v2"):
+    reports=Path(reports)
+    for name in ("rq1-manifest.json", "commands.txt"):
+        if (reports/name).exists():
+            raise FileExistsError(f"Refusing to overwrite historical suite record: {reports/name}")
     cfg=json.loads(Path(config_path).read_text())
     out=Path(out); out.mkdir(parents=True,exist_ok=False)
     manifest={'suite_config':cfg,'suite_config_sha256':sha256(config_path),'subjects':cfg['subjects'],'seeds':cfg['seeds'],'groups':cfg['groups'],'runs':[],'evaluation_hashes':{},'plan_audits':[]}
@@ -33,15 +37,18 @@ def prepare_suite(config_path,out):
             manifest['plan_audits'].append(audit)
             for group in cfg['groups']:
                 identity=f'S{subject:02d}-seed{seed}-{group}'
-                output=f'results/rq1-v2/{identity}'
+                output=str(Path(results_root)/identity)
                 manifest['runs'].append({'id':identity,'subject':subject,'seed':seed,'group':group,'plans':str(path),'plans_sha256':path_sha,'output':output,'data_sha256':package['data_sha256']})
                 commands.append(f'.venv/bin/python -m eeg_transfer.experiment run --plans {path} --group {group} --out {output} --evaluate-test')
             print(f'Prepared S{subject:02d} seed {seed}',flush=True)
         manifest['evaluation_hashes'][str(subject)]=expected_eval
-    Path('reports/phase3/rq1-manifest.json').write_text(json.dumps(manifest,indent=2))
-    Path('reports/phase3/commands.txt').write_text('\n'.join(commands)+'\n')
+    reports.mkdir(parents=True,exist_ok=True)
+    (reports/'rq1-manifest.json').write_text(json.dumps(manifest,indent=2))
+    (reports/'commands.txt').write_text('\n'.join(commands)+'\n')
     return manifest
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(); p.add_argument('--config',default='configs/rq1-suite.json'); p.add_argument('--out',default='data/plans/rq1-v2')
-    a=p.parse_args(); prepare_suite(a.config,a.out)
+    p.add_argument("--reports",default="reports/phase3")
+    p.add_argument("--results-root",default="results/rq1-v2")
+    a=p.parse_args(); prepare_suite(a.config,a.out,a.reports,a.results_root)

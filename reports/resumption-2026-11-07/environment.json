@@ -1,0 +1,7 @@
+{
+  "python": "3.12.14",
+  "torch": "2.15.0+cpu",
+  "cuda_available": false,
+  "network_policy": "unrestricted, enforced; official URL GET verified",
+  "formal_runs_started": 0
+}
