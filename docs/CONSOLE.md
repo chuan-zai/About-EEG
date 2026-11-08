@@ -40,3 +40,9 @@ ssh -N -L 8765:127.0.0.1:8765 username@gpu-host
 任务状态和原始控制台日志位于忽略目录 `data/console/`；审计/新清单位于 `reports/console/`，训练输出位于 `results/rq1-console-*`。控制台没有自动发布托管版本，因为训练必须在拥有数据和GPU的主机执行。
 
 云端浏览器预览目前遇到基础设施错误：`relay could not open browser port 4173: timed out waiting for relay readiness`。API、Python/JS静态检查及真实训练管线验证已执行；视觉与点击流程未完成浏览器实测。
+
+## Windows一键启动包
+
+从仓库下载 `downloads/EEG-console-launcher.zip`，解压后双击 `START_CONSOLE.cmd`。放到项目根目录时自动定位；放在其他位置时输入项目完整路径（如 `E:\About-EEG`）。ZIP仅包含脚本和说明，完整项目仍需先拉取work分支。
+
+脚本自动创建项目独立`.venv`、检查依赖，缺失时执行`pip install -e ".[test]"`，然后启动网页服务；无需激活环境，不修改旧`bci_env`，不自动训练、不配置CUDA。若已有无效或Linux版`.venv`，提示手动重命名，不删除。当前已做ZIP完整性及脚本内容核对，尚无Windows CMD实机验证。
