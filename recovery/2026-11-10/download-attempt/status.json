@@ -1,0 +1,23 @@
+[
+  {
+    "subject": 1,
+    "files": [
+      {
+        "historical_path": "/workspace/eeg-transfer/data/raw/A01T.mat",
+        "current_path": "/workspace/About-EEG/data/raw/A01T.mat",
+        "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2014/A01T.mat",
+        "expected_sha256": "054f02e70cf9c4ada1517e9b9864f45407939c1062c6793516585c6f511d0325",
+        "present": false
+      },
+      {
+        "historical_path": "/workspace/eeg-transfer/data/raw/A01E.mat",
+        "current_path": "/workspace/About-EEG/data/raw/A01E.mat",
+        "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2014/A01E.mat",
+        "expected_sha256": "53d415f39c3d7b0c88b894d7b08d99bcdfe855ede63831d3691af1a45607fb62",
+        "present": false
+      }
+    ],
+    "state": "blocked",
+    "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  }
+]
