@@ -26,3 +26,10 @@ results/rq1-*/
 # Restored audit JSON contains metadata and checksums only.
 !reports/resumption-2026-11-07/data/
 !reports/resumption-2026-11-07/data/*.json
+
+# User-authorized official unmodified dataset mirror (2026-11-11), Git LFS only.
+!/data/
+/data/*
+!/data/raw/
+/data/raw/*
+!/data/raw/A*.mat

@@ -1,0 +1,19 @@
+data/raw/A01T.mat: verified
+data/raw/A01E.mat: verified
+data/raw/A02T.mat: verified
+data/raw/A02E.mat: verified
+data/raw/A03T.mat: verified
+data/raw/A03E.mat: verified
+data/raw/A04T.mat: verified
+data/raw/A04E.mat: verified
+data/raw/A05T.mat: verified
+data/raw/A05E.mat: verified
+data/raw/A06T.mat: verified
+data/raw/A06E.mat: verified
+data/raw/A07T.mat: verified
+data/raw/A07E.mat: verified
+data/raw/A08T.mat: verified
+data/raw/A08E.mat: verified
+data/raw/A09T.mat: verified
+data/raw/A09E.mat: verified
+18/18 files verified

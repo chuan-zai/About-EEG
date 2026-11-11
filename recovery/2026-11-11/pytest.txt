@@ -1,0 +1,4 @@
+...........................................s....                         [100%]
+=========================== short test summary info ============================
+SKIPPED [1] tests/test_phase3.py:190: Formal integration plans not prepared
+47 passed, 1 skipped in 36.88s
